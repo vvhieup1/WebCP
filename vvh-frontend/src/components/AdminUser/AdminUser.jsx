@@ -127,12 +127,9 @@ const AdminUser = () => {
 
   const handleSearch = (selectedKeys, confirm, dataIndex) => {
     confirm();
-    // setSearchText(selectedKeys[0]);
-    // setSearchedColumn(dataIndex);
   };
   const handleReset = (clearFilters) => {
     clearFilters();
-    // setSearchText('');
   };
 
   const getColumnSearchProps = (dataIndex) => ({
