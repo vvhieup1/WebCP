@@ -173,12 +173,9 @@ const AdminProduct = () => {
 
   const handleSearch = (selectedKeys, confirm, dataIndex) => {
     confirm();
-    // setSearchText(selectedKeys[0]);
-    // setSearchedColumn(dataIndex);
   };
   const handleReset = (clearFilters) => {
     clearFilters();
-    // setSearchText('');
   };
 
   const getColumnSearchProps = (dataIndex) => ({
@@ -238,20 +235,6 @@ const AdminProduct = () => {
         setTimeout(() => searchInput.current?.select(), 100);
       }
     },
-    // render: (text) =>
-    //   searchedColumn === dataIndex ? (
-    //     // <Highlighter
-    //     //   highlightStyle={{
-    //     //     backgroundColor: '#ffc069',
-    //     //     padding: 0,
-    //     //   }}
-    //     //   searchWords={[searchText]}
-    //     //   autoEscape
-    //     //   textToHighlight={text ? text.toString() : ''}
-    //     // />
-    //   ) : (
-    //     text
-    //   ),
   });
 
 
